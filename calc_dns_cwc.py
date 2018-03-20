@@ -10,7 +10,7 @@ def main():
 	cmd1 = 'touch '+ urlstring1
 	os.system(cmd1)
 	echo1 = 'address=/'+urlstring1+'/'+ip[0]
-	cmd2 = 'echo "'+echo1+' >> '+urlstring1+'"'
+	cmd2 = 'echo "'+echo1+'" >>'+urlstring1
 	print(cmd2)
 	os.system(cmd2)
 
